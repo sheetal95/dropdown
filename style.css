@@ -1,0 +1,99 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+	background: #cfcccc;
+    font-size:18px;
+    line-height: 28px; 
+	color: #000000;
+	word-wrap:break-word !important;
+    font-family: 'Open Sans', sans-serif;
+	
+	}
+
+    a {
+        color: #000000;
+    }
+
+    nav {
+        margin: 50px 0;
+        background-color: #7479c5;
+    }
+     
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        }
+
+    nav ul li
+    {
+        display:inline-block;
+        background-color: rgb(104, 63, 63);
+           
+    }
+
+     nav a 
+    {
+        display:block;
+        padding:0 15px;	
+        color:#FFF;
+        font-size:20px;
+        line-height: 60px;
+        text-decoration:none;
+    }
+
+    nav a:hover { 
+        background-color: #000000; 
+    }
+
+
+    /* Hide Dropdowns */
+nav ul ul {
+	display: none;
+	position: absolute; 
+    top: 40px; /* the height of the main nav */
+}
+  
+
+/* Display Dropdown on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+
+nav ul ul li {
+	width:270px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+
+	h1 {
+        font-size: 50px;
+        text-align: center;
+        color: #000000;
+        margin-top: 100px;
+        text-align:center;
+        font-size:60px;
+        font-family: 'Bree Serif', 'serif';
+    }	
+
+    h3 {
+        font-size: 30px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    h3 a {
+        color: #FFF;
+    }
+    
+    
+    
+    
